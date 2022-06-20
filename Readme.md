@@ -4,4 +4,4 @@ File rpiServer.py is for running at Raspberry pi to communicate PC and Arduino p
 Main_program.py is a control system with image recognition using openCV. It should be launch second. IP adresses must be set before starting scripts (rpiServer.py and Main_program.py).
 Arduino_code.c should by change to .ino file and set in Arduino platform. Schema of the circute and used devices is simple: 2 motors with incremental encoders and l293D shield for H bridge function. Pins and connections are described in code. 
 
-Python scripts need libraries: Opencv,ZMQ, Imutils, Numpy, Keyboard (could be removed - was implemented only for manual control additional tests). 
+Python scripts need libraries: Opencv,ZMQ, Imutils, Numpy, Keyboard (Keyboard could be removed - was implemented only for manual control additional tests). 
